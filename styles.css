@@ -22,3 +22,28 @@ body{
 .icons{
     padding: 10px;
 }
+
+nav{
+   display: flex;
+    justify-content: space-evenly;
+    padding: 6px;
+}
+
+.logo{
+    display: flex;
+    gap: 3px;
+}
+
+ul{
+
+    list-style: none;
+    display: flex;
+    gap: 18px;
+    
+}
+
+
+.nav-list{
+    text-decoration: none;
+    color: #000000;
+}
