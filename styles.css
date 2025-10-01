@@ -1,0 +1,195 @@
+body{
+    width: 100vw;
+    height: 100vh;
+    background-color: #FFFFFF;
+    
+}
+
+.contact-info{
+    color: #FFFFFF;
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #5E00A6;
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+}
+
+.signup{
+    color: #AC44C1;
+}
+
+.icons{
+    padding: 10px;
+}
+
+nav{
+   display: flex;
+    justify-content: space-evenly;
+    padding: 6px;
+}
+
+.logo{
+    display: flex;
+    gap: 3px;
+}
+
+ul{
+
+    list-style: none;
+    display: flex;
+    gap: 18px;
+    
+}
+
+
+.nav-list{
+    text-decoration: none;
+    color: #000000;
+}
+
+.home-section{
+    display: flex;
+    background-color: #F6F6F6;
+}
+
+.lefthand-section{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    width: 50%;
+    /* border: 2px solid red; */
+}
+
+
+.mini-logo{
+    width: 260px;
+    display: flex;
+    gap: 6px;
+    justify-content: center;
+    align-items: center;
+    background-color: #FFFFFF;
+    border-radius: 20px;
+}
+
+.roseflower{
+    
+    border-radius: 20px;
+    background-color:#F6F6F6;
+    padding: 3px;
+    width: 20px;
+}
+
+.highlighted{
+    color: #5E00A6;
+}
+
+.cot{
+    display: flex;
+    gap: 12px;
+}
+
+button{
+    background-color: #5E00A6;
+    border: none;
+    border-radius: 12px;
+    padding: 6px;
+    color: #FFFFFF;
+}
+
+.viewproducts{
+    color: #000000;
+}
+
+.ratings{
+    display: flex;
+    gap: 12px;
+}
+
+.righthand-section{
+    position: relative;
+    width: 50%;
+    /* border: 2px solid green; */
+}
+
+.righthand-icon{
+    border-radius: 20px;
+    background-color:#5E00A6;
+    padding: 4px;
+    
+    
+}
+
+.righthand-float{
+    display: flex;
+    gap: 12px;
+    background-color:#FFFFFF;
+    border-radius: 50px;
+    width: 160px;
+    padding: 10px;
+}
+
+.righthand-image{
+    position: ablute;
+    z-index: 10;
+   
+}
+
+.badgeleft{
+    position: absolute;
+    left: 2%;
+    top: 70%;
+}
+
+.badgeright{
+    position: absolute;
+    right: 10%;
+    top: 45%;
+}
+
+.occasions{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* border: 2px solid red; */
+}
+
+.services-offered{
+    display: flex;
+    gap: 20px;
+    
+}
+
+.service{
+    width: 48px;
+    height: 48px;
+    background-color: #F6F6F6;
+    border-radius: 50px;
+    padding: 12px;
+}
+
+.discounts{
+    width: 100%;
+    /* border: 2px solid green; */
+    display: flex;
+    gap: 12px;
+}
+
+.lovely-fresh-bouquets{
+    display: flex;
+    width: 50%;
+    /* background-color: aqua; */
+    border-radius: 15px;
+}
+
+.pure-bloom-collection{
+    display: flex;
+    width: 50%;
+    /* background-color: deeppink; */
+    border-radius: 15px;
+}
+
+.image-disaccount{
+    width: 30%;
+    height: 50%;
+}
