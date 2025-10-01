@@ -146,6 +146,15 @@ button{
     top: 45%;
 }
 
+.badge{
+    width: 130px;
+    height: 130px;
+    position:absolute;
+    right: 19%;
+    
+    bottom: 6%;
+}
+
 .occasions{
     display: flex;
     flex-direction: column;
