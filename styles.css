@@ -2,6 +2,7 @@ body{
     width: 100vw;
     height: 100vh;
     background-color: #FFFFFF;
+    font-family: 'Poppins', sans-serif;
     
 }
 
@@ -18,8 +19,8 @@ body{
     color: #AC44C1;
 }
 
-.icons{
-    padding: 10px;
+ .icons{
+   padding: 10px;
 }
 
 nav{
@@ -28,21 +29,20 @@ nav{
     padding: 6px;
 }
 
-.logo{
+.main-nav .logo{
     display: flex;
     gap: 3px;
+    font-weight: bold;
 }
 
-ul{
-
+.main-nav ul{
     list-style: none;
     display: flex;
     gap: 18px;
-    
 }
 
 
-.nav-list{
+.main-nav .nav-list{
     text-decoration: none;
     color: #000000;
 }
@@ -52,53 +52,74 @@ ul{
     background-color: #F6F6F6;
 }
 
-.lefthand-section{
+.home-section .lefthand-section{
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
     width: 50%;
-    /* border: 2px solid red; */
 }
 
 
-.mini-logo{
-    width: 260px;
+.home-section .mini-logo{
+    width: max-content;
     display: flex;
     gap: 6px;
+    padding: 3px;
     justify-content: center;
     align-items: center;
     background-color: #FFFFFF;
     border-radius: 20px;
+   
 }
 
-.roseflower{
-    
+.mini-logo .roseflower{
     border-radius: 20px;
     background-color:#F6F6F6;
     padding: 3px;
-    width: 20px;
+    width: 23px;
+}
+.lefthand-section h1{
+  font-size: 45px;
+}
+
+.lefthand-section .cot{
+    width: max-content;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    
 }
 
 .highlighted{
     color: #5E00A6;
 }
 
-.cot{
-    display: flex;
-    gap: 12px;
-}
 
-button{
+.lefthand-section button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
     background-color: #5E00A6;
     border: none;
     border-radius: 12px;
     padding: 6px;
     color: #FFFFFF;
+    cursor: pointer;
 }
 
 .viewproducts{
     color: #000000;
 }
+
+.ratings .testmonials{
+    width: 200px;
+}
+
+.ratings .ratings-number{
+    font-weight: bold;
+}
+
 
 .ratings{
     display: flex;
@@ -108,10 +129,12 @@ button{
 .righthand-section{
     position: relative;
     width: 50%;
-    /* border: 2px solid green; */
 }
 
 .righthand-icon{
+   
+    width: 20px;
+    height: max-content;
     border-radius: 20px;
     background-color:#5E00A6;
     padding: 4px;
@@ -121,17 +144,17 @@ button{
 
 .righthand-float{
     display: flex;
+    justify-content: center;
+    align-items: center;
     gap: 12px;
     background-color:#FFFFFF;
     border-radius: 50px;
     width: 160px;
-    padding: 10px;
-}
+   }
 
 .righthand-image{
     position: ablute;
     z-index: 10;
-   
 }
 
 .badgeleft{
@@ -146,12 +169,37 @@ button{
     top: 45%;
 }
 
+.badge{
+    width: 130px;
+    height: 130px;
+    position:absolute;
+    right: 19%;
+    bottom: 6%;
+}
+
 .occasions{
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    /* border: 2px solid red; */
+    gap: 15px;
+  
+}
+
+.occasions .title{
+    text-align: center;
+    padding: 0px;
+   
+
+}
+
+.occasions .occasion{
+    font-size: small;
+    font-weight: bolder;
+}
+
+.occasions h4{
+    font-size: 25px;
 }
 
 .services-offered{
@@ -160,36 +208,119 @@ button{
     
 }
 
-.service{
+.services-offered .service{
     width: 48px;
     height: 48px;
     background-color: #F6F6F6;
     border-radius: 50px;
     padding: 12px;
+    cursor: pointer;
+}
+
+.services-offered .available-service{
+    font-size: small;
+    font-weight: bold;
+    text-align: center;
+}
+
+.pieces-left{
+    font-size:smaller;
+    font-weight: normal;
+    color: #B3B3B3;
 }
 
 .discounts{
     width: 100%;
-    /* border: 2px solid green; */
     display: flex;
     gap: 12px;
 }
 
+.discount-sections{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #5E00A6; 
+  border-radius: 10px;   
+  color: white;             
+  
+}
+
+
+.discount-sections img{
+     max-width: 250px;
+     border-radius: 10px;
+}
+
+.discount-sections .discountrate{
+  display: inline-block;
+  background: #f5f5f5;   
+  color: #7e22ce;        
+  font-size: 12px;
+  font-weight: bold;
+  width: max-content;
+  padding: 5px 10px;
+  border-radius: 20px;
+  margin-bottom: 10px;
+}
+
+.discount-sections .text-box{
+      max-width: 50%;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-evenly;
+      padding: 10px;
+}
+
+.discount-sections .text-box h4 {
+  font-size: 30px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.discount-sections .text-box p {
+  font-size: 14px;
+  margin-bottom: 15px;
+}
+
+.discount-sections button{
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  gap: 3px;
+  background: #e879f9;
+  color: white;
+  padding: 8px 16px;
+  border-radius: 15px;
+  font-size: 14px;
+   width: max-content;
+   cursor: pointer;
+   border: none;
+}
+ 
+
+
 .lovely-fresh-bouquets{
-    display: flex;
-    width: 50%;
-    /* background-color: aqua; */
-    border-radius: 15px;
+    background-color:#F6F6F6;
+    color: #000000;
+    
 }
 
-.pure-bloom-collection{
-    display: flex;
-    width: 50%;
-    /* background-color: deeppink; */
-    border-radius: 15px;
+.lovely-fresh-bouquets button{
+    background-color: #5E00A6;
 }
 
-.image-disaccount{
-    width: 30%;
-    height: 50%;
+.lovely-fresh-bouquets .discountrate{
+    background-color: #FFFFFF;
+    color: #000000;
 }
+
+.pure-bloom-collection .discountrate{
+    background-color: #B67CCF;
+    color: #FFFFFF;
+}
+
+.pure-bloom-collection .button{
+    background-color: #FE90E5;
+    color: #000000;
+}
+
