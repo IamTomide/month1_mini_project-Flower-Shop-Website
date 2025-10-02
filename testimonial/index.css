@@ -1,0 +1,145 @@
+body {
+    padding-left: 40px;
+    padding-right: 40px;
+    margin: auto;
+}
+
+main {
+    background-color: #F6F6F6;
+    width: 80rem;
+    height: 40rem;
+    padding-top: 7rem;
+}
+
+.testimonial {
+    text-align: center;
+    top: 20px;
+    margin-bottom: 5px;
+}
+
+.clients {
+    font-size: 2.2rem;
+    font-weight: 700;
+    text-align: center;
+    margin-top: 8px;
+}
+
+.clients span {
+    color: #5B00A8;
+}
+
+.left, .right {
+    width: 30rem; 
+    height: 100%; 
+    background-color: #FFFFFF;
+    border-radius: 20px;
+    position: relative;
+    z-index: 50;
+    padding-left: 20px;
+   
+}
+
+.quote {
+    position: absolute;
+    top: 10px;
+    opacity: 0.04; 
+    z-index: -1; 
+    left: 20rem;
+    top: 3rem;
+}
+
+.star {
+    background-image: url('myImages/yellowStar.png');
+    background-repeat: repeat-x;
+    background-size: 40px 40px;
+    height: 40px;
+    width: 40%;
+    display: flex;
+    padding-right: 24px;
+}
+
+.starText {
+    margin-left: 200px;
+    margin-top: 6px;
+    font-size: 20px;
+}
+
+.para1 {
+    font-size: 1.2rem;
+    color: #7E7E7E;
+    text-align: left;
+}
+
+.jenny {
+    display: flex;
+    gap: 12px;
+    margin-left: -16px;
+}
+
+.jenp span{
+    display: block;
+}
+
+.section{
+display: flex;
+flex-direction: row;
+gap: 2rem;
+align-items: center;
+justify-content: space-between;
+width: 65rem;
+height: 20rem;
+margin: 0 auto;
+}
+
+.latest{
+    font-size: 2.4rem;
+    font-weight: 700;
+    margin-top: 2px;
+}
+
+.latest span{
+    color: #5A1192;
+}
+
+button{
+    background-color: #5E00A6;
+    width: 140px;
+    height: 46px;
+    border-radius: 20px;
+    border-color: none;
+    color: #FFD7FF;
+    font-weight: 700;
+}
+
+.news{
+    display: flex;
+    justify-content: space-between;
+}
+
+.flowers {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1.5rem;
+    margin: 0 80px;
+}
+
+.verses{
+    border-radius: 20px;
+}
+
+.icons{
+    display: flex;
+    gap: 20px;
+    justify-content: space-between;
+    height: 40px;
+    width: full;
+    background-color: #5E00A6;
+    color: #FFF2FF;
+}
+
+.follow {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
