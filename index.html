@@ -4,22 +4,28 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>flower Shop</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Corinthia:wght@400;700&family=Kumbh+Sans:wght@100..900&family=Nanum+Myeongjo:wght@400;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
+    
     <section class="landingpage">
-        <section class="contact-info">
-            <p>Call Us: +123-456-789</p>
-            <p>Sign up and GET 20% OFF for your first order. <a href="" class="signup">Sign up now</a> </p>
-            <div class="icons">
-                <img src="./images/facebook.svg" alt="facebook">
-                <!-- <img src="./images/twitter.svg" alt="twitter"> -->
-                <img src="./images/pinterest.svg" alt="pinterest">
-                <img src="./images/instagram.svg" alt="instagram">
-                <img src="./images/youtube.svg" alt="youtube">
-            </div>
-        </section>
-        <nav class="main-nav">
+        <div class="purple-background">
+            <section class="contact-info wrapper">
+                <p>Call Us: +123-456-789</p>
+                <p>Sign up and GET 20% OFF for your first order. <a href="" class="signup">Sign up now</a> </p>
+                <div class="icons">
+                    <img src="./images/facebook.svg" alt="facebook">
+                    <!-- <img src="./images/twitter.svg" alt="twitter"> -->
+                    <img src="./images/pinterest.svg" alt="pinterest">
+                    <img src="./images/instagram.svg" alt="instagram">
+                    <img src="./images/youtube.svg" alt="youtube">
+                </div>
+            </section>
+        </div>
+        <nav class="main-nav wrapper">
             <div class="logo main-nav">
                 <img src="./images/logo.svg" alt="logo">
                 <p>Flower Shop</p>
@@ -40,44 +46,44 @@
                 <img src="./images/person.svg" alt="person">
             </section>
         </nav>
-        <section class="home-section">
-            <section class="lefthand-section">
-                <div class="mini-logo">
-                    <img class="roseflower" src="./images/roseflower.svg" alt="flower">
-                    <p>Your Trusted Online Flower Shop</p>
-                </div>
-                <h1>The Ultimate <span class="highlighted">Flower Shopping Destination</span></h1>
-                <p>Lorem ipsum dolor sit amet, consectetur adispiscing elit, sed do elusmod tempor incididunt ut labore et dolore.</p>
-                <div class="cot">
-                    <button>
-                        Shop Now
-                        <img src="./images/whiteArrow.svg" alt="whiteArrow">
-                    </button>
-                    <a href="" class="viewproducts">View All Products</a>
-                </div>
-                <div class="ratings">
-                   <img class="testmonials" src="./images/rating.svg" alt="">
-                   
-                   <p class="customertrust"><span class="ratings-number">4.9+ Ratings</span> <br>
-                    Trusted by 95k+ Customers
-                </p>
-                </div>
+        <div class="greybackground">
+            <section class="home-section wrapper">
+                <section class="lefthand-section">
+                    <div class="mini-logo">
+                        <img class="roseflower" src="./images/roseflower.svg" alt="flower">
+                        <p>Your Trusted Online Flower Shop</p>
+                    </div>
+                    <h1>The Ultimate <span class="highlighted">Flower Shopping Destination</span></h1>
+                    <p>Lorem ipsum dolor sit amet, consectetur adispiscing elit, sed do elusmod tempor incididunt ut labore et dolore.</p>
+                    <div class="cot">
+                        <button>
+                            Shop Now
+                            <img src="./images/whiteArrow.svg" alt="whiteArrow">
+                        </button>
+                        <a href="" class="viewproducts">View All Products</a>
+                    </div>
+                    <div class="ratings">
+                        <img class="testmonials" src="./images/rating.svg" alt="">
+                        
+                        <p class="customertrust"><span class="ratings-number">4.9+ Ratings</span> <br>
+                            Trusted by 95k+ Customers
+                        </p>
+                    </div>  
+                </section>
+                <section class="righthand-section">
+                    <img class="righand-image" src="./images/lady.png" alt="Woman holding flowers">
+                    <div class="righthand-float badgeleft">
+                        <img class="righthand-icon" src="./images/car.svg" alt="delivery car">
+                        <p>Fast Delivery</p>
+                    </div>
+                    <div class="righthand-float badgeright">
+                        <img class="righthand-icon" src="./images/wallet.svg" alt="Wallet">
+                        <p>Secure Payment</p>
+                    </div>
+                    <img class="badge" src="./images/badge.png" alt="">
+                </section>
             </section>
-            <section class="righthand-section">
-                <img class="righand-image" src="./images/lady.png" alt="Woman holding flowers">
-                <div class="righthand-float badgeleft">
-                    <img class="righthand-icon" src="./images/car.svg" alt="delivery car">
-                    <p>Fast Delivery</p>
-                </div>
-                <div class="righthand-float badgeright">
-                    <img class="righthand-icon" src="./images/wallet.svg" alt="Wallet">
-                    <p>Secure Payment</p>
-                </div>
-                <img class="badge" src="./images/badge.png" alt="">
-            </section>
-
-        </section>
-
+        </div>
     </section>
     <section class="occasions">
         <div class="title">
@@ -114,7 +120,7 @@
                 <p class="available-service">Get well soon <br> <span class="pieces-left">16 Products</span></p>
             </div>
         </section>
-        <section class="discounts">
+        <section class="discounts wrapper">
             <section class="lovely-fresh-bouquets discount-sections">
                 <div class="text-box">
                    <p class="discountrate ">Flat 20% Discount</p>
@@ -142,6 +148,146 @@
 
         </section>
     </section>
-    
+<main>
+
+
+    <section id="about-us" class="company-info">
+        <div class="wrapper">
+            <section class="about-us">
+                <div class="about-us-image">
+                    <img src="./images/flowerwoman.png" alt="Lady holding flower">
+                </div>
+                <div class="about-us-info">
+                    <h3>About Us</h3>
+                    <p class="info-title"><span class="purple-title">Delivering Nature's </span> </br> Beauty to Your Door</p>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore</p>
+
+                    <div class="stats">
+                        <p><span class="stat-num">20+</span>  <br> Categories</p>
+                        <hr>
+                        <p><span class="stat-num">1000+</span><br> Products</p>
+                        <hr>
+                        <p><span class="stat-num">99%</span> <br>Satisfied Customer</p>
+                    </div>
+
+                    <p class="author-name">Jenny Alexander</p>
+                </div>
+            </section>
+        </div>
+    </section>  
+
+        <div class="wrapper ">   
+            <section class="about-products">
+                <h3>Our Products</h3>
+                <div class="top-products">
+                    <p class="info-title">Our <span class="purple-title">Top Seller Products</span></p>
+                    <p class="view">View All Products</p>
+                </div>
+                <div class="product-images">
+                    <div class="product">
+                        <div class="img-wrapper">
+                            <img src="./images/blue white bouquet.png" class="product-image" alt="Blue White Bouquet">
+                            <p class="bonus">50% off</p>
+                            <img src="./images/heart.svg" alt="love icon" class="love-icon">
+                            <img src="./images/expand.svg" alt="expand image icon" class="expand-icon">
+                            <img src="./images//bag.svg" alt="lock icon" class="bag-icon">
+                            <div class="counter">
+                                <p><span class="count">5</span>  <br> Days</p>
+                                <p>:</p>
+                                <p><span class="count">12</span><br> Hours</p>
+                                <p>:</p>
+                                <p><span class="count">30</span> <br>Mins</p>
+                                <p>:</p>
+                                <p><span class="count">25</span> <br>Sec</p>
+                            </div>
+                        </div>
+
+                        <div class="product-info">
+                            <div class="bouquet">
+                                <p class="category">Bouquets</p>
+                                <h3>Blue White Bouquets</h3>
+                                <h3>$45.00 <span class="slash-price">$90.00</span></h3>
+                            </div>
+                            
+                            <p class="rating"><img src="./images/ratingstar.svg" alt="" class="star-icon"> 4.9</p>
+                        </div>
+                        
+                    </div>
+
+                    <div class="product">
+                        <div class="img-wrapper">
+                            <img src="./images/royal pink bouquet.jpeg" class="product-image" alt="Royal Pink Bouquets">
+                           <p class="bonus">20% off</p>
+                        </div>
+
+                        <div class="product-info">
+                            <div class="bouquet">
+                                <p class="category">Bouquets</p>
+                                <h3>Blue White Bouquets</h3>
+                                <h3>$48.00 <span class="slash-price">$60.00</span></h3>
+                            </div>
+                            
+                            <p class="rating"><img src="./images/ratingstar.svg" alt="" class="star-icon"> 4.9</p>
+                        </div>
+                    </div>
+
+                    <div class="product">
+                        <div class="img-wrapper">
+                            <img src="./images/rosebouquet.jpeg" class="product-image" alt="Rose Bouquets">
+                           <p class="bonus">30% off</p>
+                        </div>
+
+                        <div class="product-info">
+                            <div class="bouquet">
+                                <p class="category">Bouquets</p>
+                                <h3>Rose Bouquets</h3>
+                                <h3>$58.00 <span class="slash-price">$70.00</span></h3>
+                            </div>
+                            
+                            <p class="rating"><img src="./images/ratingstar.svg" alt="" class="star-icon"> 4.5</p>
+                        </div>
+                    </div>
+
+                    <div class="product">
+                        <div class="img-wrapper">
+                            <img src="./images/lavender.jpeg" class="product-image"alt="Lavenders Bouquets">
+                            <p class="bonus">20% off</p>
+                        </div>
+                        
+                        <div class="product-info">
+                            <div>
+                                <p class="category">Bouquets</p>
+                                <h3>Lavenders Bouquets</h3>
+                                <h3>$24.00 <span class="slash-price">$30.00</span></h3>  
+                                </div>
+                                <p class="rating"><img src="./images/ratingstar.svg" alt="" class="star-icon"> 4.9</p>
+                            </div>
+                        </div>       
+                    </div>               
+                </div>
+            </section>
+        </div>
+        <div class="wrapper">
+            <section class="salescounter">
+                <img src="./images/countersideimage.jpeg" alt="" class="flower-images">
+                <div class="timer">
+                    <p class="info-title"><span class="purple-title">Holiday</span> Sales</p>
+                    <p class="info">Get 50% off-Limited Time Offer!</p>
+                    <div class="countdown">
+                        <p class="timer-num"><span>04 </span><br> Days</p>
+                        <p class="colon">:</p>
+                        <p class="timer-num"><span>14 </span> <br>Hours <br> </p>
+                        <p class="colon">:</p>
+                        <p class="timer-num"><span>48</span> <br> Minutes</p>
+                        <p class="colon">:</p>
+                        <p class="timer-num"><span>18 </span> <br>Seconds</p>
+                    </div>
+                    <p class="view">Shop now &rarr; </p>
+                </div>
+                <img src="./images/countersideimage.jpeg" alt="" class="flower-images">
+            </section>
+        </div>
+    </section>
+ 
 </body>
 </html>
