@@ -564,7 +564,7 @@ h3{
 
 /* Gloria */
 
-main {
+ main {
     background-color: #F6F6F6;
     width: 100%;
     height: 48rem;
@@ -874,7 +874,7 @@ div .wedding-bouquet{
     font-size: 20px;
 }
 
-a {
+.samples a {
     color:#5E00A6;
     font-weight: 500;
     margin-top: -12px;
