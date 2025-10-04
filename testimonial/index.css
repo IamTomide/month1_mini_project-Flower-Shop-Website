@@ -201,15 +201,25 @@ button{
     display: flex;
     gap: 20px;
     justify-content: space-between;
+    align-items: center;
+    text-align: center;
     height: 40px;
     width: full;
     background-color: #5E00A6;
     color: #FFF2FF;
+    padding-left: 10px;
+    padding-right: 10px;
 }
 
 .follow {
-    
     justify-items: center;
+    margin-top: 90px;
+}
+
+.follow-us{
+    margin-top: 60px;
+   
+    background-color: #F6F6F6;
 }
 
 .hr-lines{
@@ -270,15 +280,30 @@ div .wedding-bouquet{
   width: 1000px;
   margin: auto;
   justify-items: center;
+  margin-bottom: 70px;
 }
 
 .third-dragon{
     opacity: 0.04;
      display: flex;
      border: none;
-    top: 74rem;
+    top: 82rem;
     left: 35rem;
     position: absolute;
     width: 180px;
     height: 180px;
 }
+
+.goods{
+    margin-top: -10px;
+    font-weight: 700;
+    font-size: 20px;
+}
+
+a {
+    color:#5E00A6;
+    font-weight: 500;
+    margin-top: -12px;
+    margin-bottom: 60px;
+}
+
