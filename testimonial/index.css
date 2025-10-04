@@ -307,3 +307,16 @@ a {
     margin-bottom: 60px;
 }
 
+.follow h3{
+    font-size: 1.2rem;
+    color: rgb(53, 47, 47);
+}
+
+.follow p{
+    font-size: 2.4rem;
+    font-weight: 700;
+}
+
+.follow span{
+    color: #5A1192;
+}
