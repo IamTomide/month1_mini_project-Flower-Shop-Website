@@ -1,53 +1,294 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Flower Shop Deals</title>
-  <link rel="stylesheet" href="styles.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>flower Shop</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Corinthia:wght@400;700&family=Kumbh+Sans:wght@100..900&family=Nanum+Myeongjo:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-  <header>
-    <img src="./images/navbar.png" alt="Flower Navbar" class="navbar-img">
-  </header>
-  <section class="new-arrival">
-    <h3 class="subtitle">New Arrival</h3>
-    <h2><span>New Arrival</span> Products</h2>
-    <div class="product-grid">
-      <div class="product-card">
-          <span class="badge pink">30% off</span>
-          <img src="./images/flower1.png" alt="Fresh Flower Basket">
-            <h4>Basket</h4>
-            <p class="title">Fresh Flower Basket</p>
-            <p class="price">$42.00 <span>$60.00</span></p>
-            <p class="desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
-            <a href="#" class="shop-link">Shop Now →</a>
+    
+    <section class="landingpage">
+        <div class="purple-background">
+            <section class="contact-info wrapper">
+                <p>Call Us: +123-456-789</p>
+                <p>Sign up and GET 20% OFF for your first order. <a href="" class="signup">Sign up now</a> </p>
+                <div class="icons">
+                    <img src="./images/facebook.svg" alt="facebook">
+                    <!-- <img src="./images/twitter.svg" alt="twitter"> -->
+                    <img src="./images/pinterest.svg" alt="pinterest">
+                    <img src="./images/instagram.svg" alt="instagram">
+                    <img src="./images/youtube.svg" alt="youtube">
+                </div>
+            </section>
+        </div>
+        <nav class="main-nav wrapper">
+            <div class="logo main-nav">
+                <img src="./images/logo.svg" alt="logo">
+                <p>Flower Shop</p>
+            </div>
+            <ul>
+                <a href="" class="nav-list main-nav"><li>Home</li></a>
+                <a href="" class="nav-list main-nav"><li>Shop</li></a>
+                <a href="" class="nav-list main-nav"><li>Occasions</li></a>
+                <a href="" class="nav-list main-nav"><li>About US</li></a>
+                <a href="" class="nav-list main-nav"><li>Contact Us</li></a>
+                <a href="" class="nav-list main-nav"><li>Blogs</li></a>
+                
+            </ul>
+            <section class="icons">
+                <img src="./images/search.svg" alt="search">
+                <img src="./images/heart.svg" alt="Like">
+                <img src="./images/bag.svg" alt="bag">
+                <img src="./images/person.svg" alt="person">
+            </section>
+        </nav>
+        <div class="greybackground">
+            <section class="home-section wrapper">
+                <section class="lefthand-section">
+                    <div class="mini-logo">
+                        <img class="roseflower" src="./images/roseflower.svg" alt="flower">
+                        <p>Your Trusted Online Flower Shop</p>
+                    </div>
+                    <h1>The Ultimate <span class="highlighted">Flower Shopping Destination</span></h1>
+                    <p>Lorem ipsum dolor sit amet, consectetur adispiscing elit, sed do elusmod tempor incididunt ut labore et dolore.</p>
+                    <div class="cot">
+                        <button>
+                            Shop Now
+                            <img src="./images/whiteArrow.svg" alt="whiteArrow">
+                        </button>
+                        <a href="" class="viewproducts">View All Products</a>
+                    </div>
+                    <div class="ratings">
+                        <img class="testmonials" src="./images/rating.svg" alt="">
+                        
+                        <p class="customertrust"><span class="ratings-number">4.9+ Ratings</span> <br>
+                            Trusted by 95k+ Customers
+                        </p>
+                    </div>  
+                </section>
+                <section class="righthand-section">
+                    <img class="righand-image" src="./images/lady.png" alt="Woman holding flowers">
+                    <div class="righthand-float badgeleft">
+                        <img class="righthand-icon" src="./images/car.svg" alt="delivery car">
+                        <p>Fast Delivery</p>
+                    </div>
+                    <div class="righthand-float badgeright">
+                        <img class="righthand-icon" src="./images/wallet.svg" alt="Wallet">
+                        <p>Secure Payment</p>
+                    </div>
+                    <img class="badge" src="./images/badge.png" alt="">
+                </section>
+            </section>
+        </div>
+    </section>
+    <section class="occasions">
+        <div class="title">
+           <p class="occasion">Occasions</p>
+           <h4>Shop By <span class="highlighted">Occasions</span></h4>
+        </div>
+        
+        <section class="services-offered">
+            <div>
+                <img class="service" src="./images/ring.svg" alt="ring">
+                <p class="available-service">Weddings <br> <span class="pieces-left">42 Products</span></p>
+            </div>
+            <div>
+                <img class="service" src="./images/gift.svg" alt="gift">
+                <div>
+                     <p class="available-service">Bithday <br> <span class="pieces-left">56 Products</span></p>
+                </div>
+              
+            </div>
+            <div>
+                <img class="service" src="./images/heart2.svg" alt="heart">
+                <p class="available-service">Anniversary <br> <span class="pieces-left">11 Products</span></p>
+            </div>
+            <div>
+                <img class="service" src="./images/folded-hands.svg" alt="hands">
+                <p class="available-service">Thank you <br> <span class="pieces-left">48 Products</span></p>
+            </div>
+            <div>
+                <img class="service" src="./images/graduation-cap.svg" alt="graduation">
+                <p class="available-service">Graduation <br> <span class="pieces-left">13 Products</span></p>
+            </div>
+            <div>
+                <img class="service" src="./images/person2.svg" alt="person">
+                <p class="available-service">Get well soon <br> <span class="pieces-left">16 Products</span></p>
+            </div>
+        </section>
+        <section class="discounts wrapper">
+            <section class="lovely-fresh-bouquets discount-sections">
+                <div class="text-box">
+                   <p class="discountrate ">Flat 20% Discount</p>
+                   <h4>Lovely Fresh Boquets</h4>
+                   <p>Lorem ipsum dolor sit amet, consectetur adispiscing elit</p>
+                   <button>
+                        Shop Now
+                        <img src="./images/whiteArrow.svg" alt="whiteArrow">
+                   </button>
+                </div>
+                <img class="image-disaccount" src="./images/lovelyfresh.png" alt="lovely Fresh">
+              </section>
+              <section class="pure-bloom-collection discount-sections">
+                <div class="text-box">
+                   <p class="discountrate rightbloom">Flat 25% Discount</p>
+                   <h4>Pure Bloom Collection</h4>
+                   <p class="signup">Lorem ipsum dolor sit amet, consectetur adispiscing elit</p>
+                   <button>
+                        Shop Now
+                        <img src="./images/whiteArrow.svg" alt="whiteArrow">
+                   </button>
+                  </div>
+                   <img class="image-disaccount"  src="./images/lovelyfresh.png" alt="">
+            </section>
 
-      </div>
-      <div class="product-card">
-        <span class="badge purple">50% off</span>
-        <img src="./images/red-white-roses.png" alt="Red White Rose">
-        <h4>Flowers</h4>
-        <p class="title">Red White Rose</p>
-        <p class="price">$30.00 <span>$60.00</span></p>
-        <p class="desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
-        <a href="#" class="shop-link">Shop Now →</a>
-      </div>
-    </div>
-  </section>
-  <section class="weekly-deals">
-    <div class="weekly-content">
-      <h4>Weekly Deals</h4>
-      <h2>Unbeatable Weekly Offers on <span>Beautiful Flowers</span></h2>
-      <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium.</p>
-      <a href="#" class="shop-btn">Shop Now →</a>
-    </div>
-    <div class="weekly-img">
-      <img src="./images/flower-offer.png" alt="Weekly Offer Flowers">
-    </div>
-  </section>
+        </section>
+    </section>
 
-  <header class="navbar-image">
+
+
+    <section id="about-us" class="company-info">
+        <div class="wrapper">
+            <section class="about-us">
+                <div class="about-us-image">
+                    <img src="./images/flowerwoman.png" alt="Lady holding flower">
+                </div>
+                <div class="about-us-info">
+                    <h3>About Us</h3>
+                    <p class="info-title"><span class="purple-title">Delivering Nature's </span> </br> Beauty to Your Door</p>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore</p>
+
+                    <div class="stats">
+                        <p><span class="stat-num">20+</span>  <br> Categories</p>
+                        <hr>
+                        <p><span class="stat-num">1000+</span><br> Products</p>
+                        <hr>
+                        <p><span class="stat-num">99%</span> <br>Satisfied Customer</p>
+                    </div>
+
+                    <p class="author-name">Jenny Alexander</p>
+                </div>
+            </section>
+        </div>
+    </section>  
+
+        <div class="wrapper ">   
+            <section class="about-products">
+                <h3>Our Products</h3>
+                <div class="top-products">
+                    <p class="info-title">Our <span class="purple-title">Top Seller Products</span></p>
+                    <p class="view">View All Products</p>
+                </div>
+                <div class="product-images">
+                    <div class="product">
+                        <div class="img-wrapper">
+                            <img src="./images/blue white bouquet.png" class="product-image" alt="Blue White Bouquet">
+                            <p class="bonus">50% off</p>
+                            <img src="./images/heart.svg" alt="love icon" class="love-icon">
+                            <img src="./images/expand.svg" alt="expand image icon" class="expand-icon">
+                            <img src="./images//bag.svg" alt="lock icon" class="bag-icon">
+                            <div class="counter">
+                                <p><span class="count">5</span>  <br> Days</p>
+                                <p>:</p>
+                                <p><span class="count">12</span><br> Hours</p>
+                                <p>:</p>
+                                <p><span class="count">30</span> <br>Mins</p>
+                                <p>:</p>
+                                <p><span class="count">25</span> <br>Sec</p>
+                            </div>
+                        </div>
+
+                        <div class="product-info">
+                            <div class="bouquet">
+                                <p class="category">Bouquets</p>
+                                <h3>Blue White Bouquets</h3>
+                                <h3>$45.00 <span class="slash-price">$90.00</span></h3>
+                            </div>
+                            
+                            <p class="rating"><img src="./images/ratingstar.svg" alt="" class="star-icon"> 4.9</p>
+                        </div>
+                        
+                    </div>
+
+                    <div class="product">
+                        <div class="img-wrapper">
+                            <img src="./images/royal pink bouquet.jpeg" class="product-image" alt="Royal Pink Bouquets">
+                           <p class="bonus">20% off</p>
+                        </div>
+
+                        <div class="product-info">
+                            <div class="bouquet">
+                                <p class="category">Bouquets</p>
+                                <h3>Blue White Bouquets</h3>
+                                <h3>$48.00 <span class="slash-price">$60.00</span></h3>
+                            </div>
+                            
+                            <p class="rating"><img src="./images/ratingstar.svg" alt="" class="star-icon"> 4.9</p>
+                        </div>
+                    </div>
+
+                    <div class="product">
+                        <div class="img-wrapper">
+                            <img src="./images/rosebouquet.jpeg" class="product-image" alt="Rose Bouquets">
+                           <p class="bonus">30% off</p>
+                        </div>
+
+                        <div class="product-info">
+                            <div class="bouquet">
+                                <p class="category">Bouquets</p>
+                                <h3>Rose Bouquets</h3>
+                                <h3>$58.00 <span class="slash-price">$70.00</span></h3>
+                            </div>
+                            
+                            <p class="rating"><img src="./images/ratingstar.svg" alt="" class="star-icon"> 4.5</p>
+                        </div>
+                    </div>
+
+                    <div class="product">
+                        <div class="img-wrapper">
+                            <img src="./images/lavender.jpeg" class="product-image"alt="Lavenders Bouquets">
+                            <p class="bonus">20% off</p>
+                        </div>
+                        
+                        <div class="product-info">
+                            <div>
+                                <p class="category">Bouquets</p>
+                                <h3>Lavenders Bouquets</h3>
+                                <h3>$24.00 <span class="slash-price">$30.00</span></h3>  
+                                </div>
+                                <p class="rating"><img src="./images/ratingstar.svg" alt="" class="star-icon"> 4.9</p>
+                            </div>
+                        </div>       
+                    </div>               
+                </div>
+            </section>
+        </div>
+        <div class="wrapper">
+            <section class="salescounter">
+                <img src="./images/countersideimage.jpeg" alt="" class="flower-images">
+                <div class="timer">
+                    <p class="info-title"><span class="purple-title">Holiday</span> Sales</p>
+                    <p class="info">Get 50% off-Limited Time Offer!</p>
+                    <div class="countdown">
+                        <p class="timer-num"><span>04 </span><br> Days</p>
+                        <p class="colon">:</p>
+                        <p class="timer-num"><span>14 </span> <br>Hours <br> </p>
+                        <p class="colon">:</p>
+                        <p class="timer-num"><span>48</span> <br> Minutes</p>
+                        <p class="colon">:</p>
+                        <p class="timer-num"><span>18 </span> <br>Seconds</p>
+                    </div>
+                    <p class="view">Shop now &rarr; </p>
+                </div>
+                <img src="./images/countersideimage.jpeg" alt="" class="flower-images">
+            </section>
+        </div>
+    </section>
+ <header class="navbar-image">
     <img src="./images/navbar.png" alt="Flower Shop Navbar">
   </header>
   <section class="deals">
@@ -121,6 +362,300 @@
         </div>
       </div>
     </div>
-  </section>
+    </div>
+    <!-- Gloria -->
+      <main>
+        <div class="dragon-container">
+            <h3 class="testimonial">Testimonial</h3>
+            <p class="clients">What <span>Our Clients Say</span></p>
+            <img
+                alt="dragon"
+                src="images/dragon.png"
+                class="dragon"
+            />
+        </div>
+
+        <div class="section">
+            <section class="left">
+                <figure class="star">
+                    <figcaption class="starText">5.0</figcaption>
+                </figure>
+                <h3 class="gorgeous">Gorgeous Bouquets!</h3>
+                <p class="gorgeous">Sed ut perspisciatis unde omnis iste natus error sit voluptatem accusantium
+                    doloremque laudantium, totam rem aperiam eaque ipsa quae ab illo inventore veritatis
+                    et quasi architecto beatae vitae dicta sunt explicabo 
+                </p>
+                <img alt="quote" src="images/quote.png" class="quote"/>
+
+            <div class="jenny">
+                    <img
+                         alt="jenny wilson"
+                         src="images/jennyWilson.png"
+                         width="88px" height="80px"
+                    />
+                    <p class="jenp">Jenny Wilson
+                    <span >Happy Customer</span>
+                    </p>
+            </div>
+            </section>
+
+            <section class="right">
+                <figure class="star">
+                    <figcaption class="starText">5.0</figcaption>
+                </figure>
+                    <h3 class="gorgeous">Gorgeous Bouquets!</h3>
+                    <p class="gorgeous">Sed ut perspisciatis unde omnis iste natus error sit voluptatem accusantium
+                     doloremque laudantium, totam rem aperiam eaque ipsa quae ab illo inventore
+                      veritatis et quasi architecto beatae vitae dicta sunt explicabo
+                    </p>
+                     <img
+                         alt="quote"
+                         src="images/quote.png"
+                         class="quote"
+                    />
+
+                 <div  class="dianne">                        
+                     <img 
+                        alt="dianne russel"
+                        src="images/dianne.png"
+                    />
+                    <p class="jenp">Dianne Russel
+                        <span>Happy Customer</span>
+                    </p>
+                 </div> 
+            </section>
+               
+        </div>
+            <div class="hr-lines">
+                <hr class="line">
+                <hr class="line">
+                <hr class="line">
+                <hr class="line">
+            </div>
+
+    </main>
+
+        <div class="samples">              
+            <section class="right-section">
+                <img
+                    alt="second-dragon"
+                    src="images/dragon.png"
+                    class="second-dragon"
+                />
+                    <h3>News & Blogs</h3>
+                <div class="news">
+                <h1 class="latest">Our Latest 
+                    <span>News & Blogs</span></h1>
+                <button>Visit All Blogs</button>
+                </div>
+          
+            <div class="flowers">
+                <div class="first-image">
+            <img
+            alt="wedding lady"
+            src="images/weddingLady.png"           
+            class="verses"/>    
+
+            <p class="wedding-bouquet">Wedding Bouquet</p>
+            <div class="wedding-div">
+            <p>Jenny Alexander</p>
+            <p class="today"></p>
+            </div>
+            <p class="goods">Choosing the Perfect Wedding Bouquet for Your Big Day</p>
+
+            <a href="#" class="read">Read More</a>
+                </div>
+          
+            <div class="second-image">
+                <img
+                    alt="couple"
+                    src="images/couple.png"
+                    width="340px"
+                    height="170px"
+                    class="verses"
+                /> 
+
+            <p class="wedding-bouquet">Anniversary Flowers</p>
+
+            <div class="wedding-div">
+                <p>Jenny Alexander</p>
+                <p class="today"> </p>
+            </div>
+
+            <p class="goods">Celebrating Love: The Perfect Flowers for Every Anniversay</p>
+
+             <a href="#" class="read">Read More</a>
+            </div>
+            
+            <div class="third-image">
+                 <img
+                    alt="flower verses"
+                    src="images/flowerVerses.png"
+                    width="340px"
+                    height="170px"
+                    class="verses"
+                 /> 
+
+            <p class="wedding-bouquet">Bouquet Tips</p>
+
+            <div class="wedding-div">
+                <p>Jenny Alexander</p>
+                <p class="today"> </p>
+            </div>
+
+            <p class="goods">Top Tips for Designing Your Floral Bouquets for maximum...</p>
+
+             <a href="#" class="read">Read More</a>
+            </div>
+           
+             </div>
+        </section>
+    </div>
+    
+        <div>
+
+            <div class="follow-us">
+                 <figure class="icons">
+                <img
+                    alt="nav icons"
+                    src="images/navIcon.png"
+                />
+
+                <figcaption>Birthday</figcaption>
+
+                 <img
+                    alt="nav icons"
+                    src="images/navIcon.png"
+                 />
+
+                <figcaption>Weddings</figcaption>
+
+                 <img
+                    alt="nav icons"
+                    src="images/navIcon.png"
+                />
+
+                <figcaption>Anniversary</figcaption>
+
+                 <img
+                    alt="nav icons"
+                    src="images/navIcon.png"
+                />
+
+                <figcaption>Thank You</figcaption>
+
+                 <img
+                    alt="nav icons"
+                    src="images/navIcon.png"
+                />
+
+                <figcaption>Graduation</figcaption>
+            </figure>
+                 <div class="follow">
+                <img
+                    alt="third-dragon"
+                    src="images/dragon.png"
+                    class="third-dragon"
+                />
+                <h3>Follow Us</h3>
+            <p>Follow Us On
+                <span>Instagram</span>
+             </p>
+            </div>
+
+            <div class="imageGridContainer">
+            <div class="imageGrid">
+             <img
+                alt="image grid"
+                src="images/firstGrid1.png"
+             />
+
+             <img
+                alt="image grid"
+                src="images/firstGrid2.png"
+             /> 
+                
+            <img
+                alt="image grid"
+                src="images/firstGrid3.png"
+               /> 
+                
+             <img
+                alt="image grid"
+                src="images/firstGrid4.png"
+                />     
+            </div>
+
+            <div>
+                 <img
+                    alt="image grid"
+                    src="images/secondGrid.png"
+                 /> 
+            </div>
+
+             <div class="imageGrid">
+                 <img
+                    alt="image grid"
+                    src="images/thirdGrid1.png"
+                 /> 
+
+                <img
+                    alt="image grid"
+                    src="images/thirdGrid2.png"
+                />
+                
+                 <img
+                    alt="image grid"
+                    src="images/thirdGrid3.png"
+                 /> 
+
+                 <img
+                     alt="image grid"
+                    src="images/thirdGrid4.png"
+                 /> 
+            </div>
+            </div>
+
+                 <figure class="icons">
+                <img
+                    alt="nav icons"
+                    src="images/navIcon.png"
+                />
+
+                <figcaption>Birthday</figcaption>
+
+                 <img
+                    alt="nav icons"
+                    src="images/navIcon.png"
+                 />
+
+                <figcaption>Weddings</figcaption>
+
+                 <img
+                    alt="nav icons"
+                    src="images/navIcon.png"
+                 />
+
+                <figcaption>Anniversary</figcaption>
+
+                 <img
+                    alt="nav icons"
+                    src="images/navIcon.png"
+                 />
+
+                <figcaption>Thank You</figcaption>
+
+                 <img
+                    alt="nav icons"
+                    src="images/navIcon.png"
+                 />
+
+                <figcaption>Graduation</figcaption>
+            </figure>
+
+            </div>
+             
+        </div>
+ <script src="index.js"></script>
 </body>
 </html>
