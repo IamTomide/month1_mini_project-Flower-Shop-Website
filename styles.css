@@ -48,7 +48,7 @@ nav{
     color: #000000;
 }
 .greybackground{
-    background-color: #F6F6F6;
+    background-color: rgba(219, 219, 219, 0.341);
 }
 .home-section{
     display: flex;
@@ -191,8 +191,7 @@ nav{
 .occasions .title{
     text-align: center;
     padding: 0px;
-   
-
+    margin-top: 1.5em;
 }
 
 .occasions .occasion{
@@ -202,6 +201,7 @@ nav{
 
 .occasions h4{
     font-size: 25px;
+    margin: 0;
 }
 
 .services-offered{
@@ -302,7 +302,7 @@ nav{
 
 
 .lovely-fresh-bouquets{
-    background-color:#F6F6F6;
+    background-color: rgba(219, 219, 219, 0.341);
     color: #000000;
     
 }
@@ -499,7 +499,7 @@ h3{
 .product-info h3{
     margin-bottom: 0.5em;
 }
-.rating, .category{
+.product-info .rating, .category{
     margin: 0;
 }
 .category{
@@ -565,9 +565,8 @@ h3{
 /* Gloria */
 
  main {
-    background-color: #F6F6F6;
+    background-color: rgba(219, 219, 219, 0.341);
     width: 100%;
-    height: 48rem;
     padding-top: 7rem;
     margin: 0 auto; 
     margin-bottom: 60px;
@@ -575,7 +574,7 @@ h3{
     flex-direction: column;
     align-items: center; 
     margin-top: 80px;
-    padding-bottom: 20px;
+    padding-bottom: 7rem;
 }
 
 .dragon-container{
@@ -1165,7 +1164,7 @@ body {
     gap: 1.5rem;
   }
   
-  .product {
+  .deals-products .product {
     background: #f8f8f8;
     border-radius: 10px;
     padding: 1rem;
@@ -1173,7 +1172,7 @@ body {
     position: relative;
   }
   
-  .product img {
+  .deals-products .product img {
     width: 100%;
     border-radius: 8px;
   }
@@ -1189,30 +1188,30 @@ body {
     border-radius: 5px;
   }
   
-  .product h4 {
+  .deals-products .product h4 {
     font-size: 0.8rem;
     color: #777;
     margin-top: 0.5rem;
   }
   
-  .product p {
+  .deals-products .product p {
     font-size: 1rem;
     font-weight: bold;
     margin: 0.3rem 0;
   }
   
-  .price {
+  .deals-products .price {
     font-size: 1rem;
     color: #333;
   }
   
-  .price span {
+  .deals-products .price span {
     text-decoration: line-through;
     color: #999;
     margin-left: 5px;
   }
   
-  .rating {
+  .deals-products .rating {
     font-size: 0.9rem;
     color: #f4b400; /* Star color */
   }
