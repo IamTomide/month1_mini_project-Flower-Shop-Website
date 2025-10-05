@@ -1196,6 +1196,7 @@ body {
   font-size: 0.9rem;
   color: #f4b400; /* Star color */
 }
+
 .questioner-page {
   display: flex;
   flex-direction: column;
@@ -1374,4 +1375,124 @@ body {
   padding-left: 20px;
   font-size: 16px;
   margin-right: 10px;
+}
+footer {
+  background-color: #5e00a6;
+  height: 600px;
+  display: flex;
+  flex-direction: column;
+  padding-top: 30px;
+}
+.first-footer-container {
+  height: 300px;
+  display: flex;
+  justify-content: space-evenly;
+}
+.flower-logo-cont {
+  width: 500px;
+}
+.footer-logo-heading {
+  display: flex;
+  padding-left: 20px;
+  gap: 20px;
+}
+.footer-logo-heading h1 {
+  color: white;
+}
+.footer-logo {
+  width: 70px;
+  height: 70px;
+  padding-top: 10px;
+}
+.first-footer-container p {
+  width: 300px;
+  padding-left: 20px;
+  font-size: 20px;
+  line-height: 1.5rem;
+  color: #bf85eb;
+}
+.footer-icons-cont {
+  width: 400px;
+  display: flex;
+}
+.first-icon-cont {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  position: relative;
+  background-color: #721db2;
+  margin-left: 30px;
+}
+.footer-facebook-logo {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  width: 30px;
+  height: 30px;
+}
+.company-container {
+  width: 250px;
+  padding-bottom: 15px;
+}
+.footer-h2 {
+  color: white;
+  padding-left: 20px;
+  font-size: 28px;
+}
+.customer-container {
+  width: 250px;
+}
+.our-information-cont {
+  width: 250px;
+}
+.contact-cont {
+  width: 250px;
+}
+.second-footer-container {
+  height: 100px;
+  display: flex;
+  justify-content: space-between;
+}
+.footer-copyright-cont {
+  margin-left: 130px;
+  padding-top: 20px;
+}
+.footer-copyright-cont p {
+  font-size: 24px;
+  color: white;
+}
+.footer-span {
+  color: #fe91e4;
+}
+.footer-lang-cont {
+  display: flex;
+  justify-content: space-evenly;
+  margin-right: 130px;
+  width: 300px;
+  margin-top: 20px;
+}
+.eng-cont {
+  display: flex;
+}
+.usd-cont {
+  display: flex;
+}
+.footer-arrow {
+  padding-top: 13px;
+  width: 50px;
+  height: 50px;
+}
+.eng-cont p {
+  color: white;
+  font-size: 24px;
+}
+.usd-cont p {
+  color: white;
+  font-size: 24px;
+}
+hr {
+  border: none;
+  border-top: 1px solid #bf85eb;
+  width: 90%;
+  margin: 40px auto;
 }
