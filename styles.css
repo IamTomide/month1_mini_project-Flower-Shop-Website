@@ -1,6 +1,4 @@
 body {
-  width: 100%;
-  height: 100vh;
   background-color: #ffffff;
   font-family: "Poppins", sans-serif;
 }
@@ -504,9 +502,9 @@ h3 {
 }
 .salescounter {
   display: flex;
-  justify-content: space-around;
-  margin-top: 5em;
-  height: 440px;
+  justify-content: space-between;
+  margin: 5em 0;
+  height: 500px;
 }
 .flower-images {
   width: 200px;
@@ -521,11 +519,12 @@ h3 {
   background-size: 100% 100%;
   background-color: rgba(128, 128, 128, 0.31);
   background-blend-mode: multiply;
-  flex-basis: 60%;
+  flex-basis: 62%;
   border-radius: 10px;
 }
 .timer p {
   margin: 0;
+  font-size: 1.2rem;
 }
 .timer-num {
   text-align: center;
@@ -533,7 +532,7 @@ h3 {
 }
 .timer-num span {
   font-weight: bold;
-  font-size: 2rem;
+  font-size: 2.2rem;
 }
 .countdown {
   display: flex;
@@ -541,15 +540,13 @@ h3 {
 }
 .info {
   font-size: 1.25rem;
-  /* padding: 1.5em 0; */
 }
 .colon {
-  padding: 0.8em 0;
+  padding: 3em 0;
   font-family: bold;
   font-size: 3rem;
 }
 
-/* Gloria */
 
 main {
   background-color: rgba(219, 219, 219, 0.341);
@@ -682,9 +679,7 @@ main {
     color: grey;
     font-weight: normal;
 }
-/* .right-section{
-    width: 100%;
-} */
+
 .latest {
   font-size: 2.4rem;
   font-weight: 700;
@@ -832,11 +827,18 @@ div .wedding-bouquet {
   display: grid;
   grid-template-columns: repeat(2, minmax(0, 1fr));
   gap: 2px;
-  width: 320px;
+  width: 400px;
   margin: 0;
   border-radius: 20px;
 }
-
+.imageGrid img{
+    width: 200px;
+    height: 200px;
+}
+.middle-image img{
+    width: 400px;
+    height: 400px;
+}
 .imageGridContainer {
   display: grid;
   grid-template-columns: repeat(3, minmax(0, 1fr));
@@ -889,20 +891,11 @@ div .wedding-bouquet {
   padding-left: 10px;
 }
 
-/* body {
-  margin: 0;
-  font-family: Arial, sans-serif;
-  background: #fafafa;
-  color: #222;
-} */
-
-/* Navbar */
 .navbar-img {
   width: 100%;
   display: block;
 }
 
-/* New Arrival Section */
 .new-arrival {
   text-align: center;
   padding: 2rem;
@@ -953,16 +946,6 @@ div .wedding-bouquet {
   text-align: left;
 }
 
-/* .badge {
-  position: absolute;
-  top: 10px;
-  left: 10px;
-  padding: 5px 10px;
-  font-size: 0.8rem;
-  border-radius: 15px;
-  color: #fff;
-} */
-
 .badge.pink {
   background: #ff4da6;
 }
@@ -1001,13 +984,12 @@ div .wedding-bouquet {
   text-decoration: none;
 }
 
-/* Weekly Deals */
 .weekly-deals {
   align-items: center;
   background: #6a0dad;
   color: #fff;
   border-radius: 12px;
-  width: 80%;
+  width: 1200px;
   margin: 0 auto;
   padding: 2rem;
   margin-bottom: 50px;
@@ -1058,14 +1040,11 @@ div .wedding-bouquet {
   float: right;
 }
 
-/* Navbar Image */
 .navbar-image img {
   width: 100%;
   height: auto;
   display: block;
 }
-
-/* Deals Section */
 
 .deals {
   padding: 2rem;
@@ -1098,7 +1077,7 @@ div .wedding-bouquet {
 }
 
 .deals h2 span {
-  color: #6a0dad; /* Purple accent */
+  color: #6a0dad; 
 }
 
 .deals-subtitle {
@@ -1107,7 +1086,6 @@ div .wedding-bouquet {
   margin-bottom: 2rem;
 }
 
-/* Deals Container */
 .deals-container {
   display: flex;
   width: 80%;
@@ -1115,7 +1093,6 @@ div .wedding-bouquet {
   margin: 0 auto;
 }
 
-/* Left Banner */
 .deals-banner {
   flex: 1;
   position: relative;
@@ -1152,7 +1129,6 @@ div .wedding-bouquet {
   cursor: pointer;
 }
 
-/* Products Grid */
 .deals-products {
   flex: 3;
   display: grid;
@@ -1209,7 +1185,7 @@ div .wedding-bouquet {
 
 .deals-products .rating {
   font-size: 0.9rem;
-  color: #f4b400; /* Star color */
+  color: #f4b400; 
 }
 
 .questioner-page {
@@ -1238,7 +1214,6 @@ div .wedding-bouquet {
 }
 .main-container {
   width: 1200px;
-  height: 1300px;
   margin-top: 20px;
   display: flex;
   flex-direction: column;
@@ -1247,7 +1222,7 @@ div .wedding-bouquet {
   height: 500px;
   margin-top: 20px;
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-between;
 }
 .left-box {
   height: 200px;
@@ -1291,7 +1266,6 @@ div .wedding-bouquet {
   font-weight: bold;
 }
 .qns-lists {
-  /* width: 800px; */
   height: 50px;
   margin-bottom: 20px;
   border-radius: 10px;
@@ -1397,7 +1371,7 @@ footer {
   flex-direction: column;
   padding: 16px 35px;
   font-size: 16px;
-  width: 90%;
+  width: 92%;
   margin: auto;
   border-radius: 20px;
 }
