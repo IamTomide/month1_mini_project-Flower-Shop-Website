@@ -580,16 +580,16 @@ main {
 }
 
 .second-dragon {
-  opacity: 0.05;
-  display: flex;
-  border: none;
-  top: 255rem;
-  left: 188px;
-  position: absolute;
-  width: 190px;
-  height: 170px;
+    opacity: 0.05;
+    display: flex;
+    border: none;
+    position: absolute;
+    width: 190px;
+    height: 100px;
 }
-
+.right-section{
+    margin-top: 2em;
+}
 .testimonial {
   text-align: center;
   top: 20px;
@@ -609,7 +609,6 @@ main {
 
 .left,
 .right {
-  width: 30rem;
   height: 100%;
   background-color: #ffffff;
   border-radius: 20px;
@@ -633,7 +632,7 @@ main {
   background-repeat: repeat-x;
   background-size: 40px 40px;
   height: 40px;
-  width: 42%;
+  width: 38%;
   display: flex;
   margin: 0;
   margin-top: 20px;
@@ -659,6 +658,7 @@ main {
 
 .jenp span {
   display: block;
+  margin-top: 5px;
 }
 
 .section {
@@ -667,11 +667,24 @@ main {
   gap: 2rem;
   align-items: center;
   justify-content: space-between;
-  width: 65rem;
+  width: 100%;
   height: 20rem;
   margin: 0 auto;
 }
 
+.jenp{
+    color: black;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.gorgeous, .jenp span{
+    color: grey;
+    font-weight: normal;
+}
+/* .right-section{
+    width: 100%;
+} */
 .latest {
   font-size: 2.4rem;
   font-weight: 700;
@@ -700,6 +713,7 @@ main {
   flex-direction: row;
   justify-content: space-between;
   margin: auto;
+  margin-bottom: 2em;
 }
 
 .first-image,
@@ -875,12 +889,12 @@ div .wedding-bouquet {
   padding-left: 10px;
 }
 
-body {
+/* body {
   margin: 0;
   font-family: Arial, sans-serif;
   background: #fafafa;
   color: #222;
-}
+} */
 
 /* Navbar */
 .navbar-img {
@@ -1210,16 +1224,16 @@ body {
   margin: 0;
 }
 .heading {
-  font-size: 40px;
   text-align: center;
   margin-top: 30px;
 }
 .qn {
-  font-size: 60px;
+  font-size: 32px;
   margin-top: 20px;
+  font-weight: bold;
+  padding-top: 10px;
 }
 .span {
-  font-size: 60px;
   color: #5e00a6;
 }
 .main-container {
@@ -1230,19 +1244,19 @@ body {
   flex-direction: column;
 }
 .question-box {
-  width: 1200px;
   height: 500px;
   margin-top: 20px;
   display: flex;
-  justify-content: space-between;
+  justify-content: space-evenly;
 }
 .left-box {
-  width: 800px;
   height: 200px;
+  flex-basis: 65%;
 }
 .right-box {
   background-color: #5e00a6;
-  width: 300px;
+  flex-basis: 25%;
+  padding: 16px;
   height: 280px;
   border-radius: 20px;
   margin-right: 30px;
@@ -1259,13 +1273,12 @@ body {
   font-size: 20px;
   font-weight: bold;
   text-align: center;
-  padding-top: 10px;
+  padding: 10px 0;
 }
 .option-ans {
-  color: black;
+  color: #FE91E8;
   font-size: 15px;
   text-align: center;
-  padding-top: 7px;
 }
 .contact-btn {
   width: 100px;
@@ -1275,9 +1288,10 @@ body {
   border-radius: 30px;
   margin-left: 100px;
   margin-top: 20px;
+  font-weight: bold;
 }
 .qns-lists {
-  width: 800px;
+  /* width: 800px; */
   height: 50px;
   margin-bottom: 20px;
   border-radius: 10px;
@@ -1288,7 +1302,6 @@ body {
   padding: 10px 20px;
 }
 .qns-lists p {
-  font-size: 22px;
   font-weight: bold;
   margin: 0;
 }
